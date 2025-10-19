@@ -30,6 +30,10 @@ It is **necessary to install an adequate Stockfish version** on your operating s
 
 Please refer to the official [Stockfish download page] (https://stockfishchess.org/download/) for the appropriate installation and path setup instructions.
 
+#### Lichess token
+
+Token is required to communicate with Lichess API as part of the code. Token should be inserted into the BERSERK_TOKEN environmental variable in (`ENV`). More instructions about token are found in [Lichess website] (https://lichess.org/account/oauth/token) 
+
 #### 3. Conda Environment (Recommended)
   > For reproducibility, create and activate the provided environment (`ENV`) using conda:  
   ```bash
