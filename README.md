@@ -28,11 +28,12 @@ The notebook requires **Python 3** and a standalone installation of the **Stockf
 
 It is **necessary to install an adequate Stockfish version** on your operating system. The notebook's core functionality for evaluating positions and generating engine-based features relies on having the Stockfish executable available and the path specified within the code.
 
-Please refer to the official [Stockfish download page] (https://stockfishchess.org/download/) for the appropriate installation and path setup instructions.
+Please refer to the official [Stockfish download page](https://stockfishchess.org/download/) for the appropriate installation and path setup instructions.
+
 
 #### Lichess token
 
-Token is required to communicate with Lichess API as part of the code. Token should be inserted into the BERSERK_TOKEN environmental variable in (`ENV`). More instructions about token are found in [Lichess website] (https://lichess.org/account/oauth/token) 
+Token is required to communicate with Lichess API as part of the code. Token should be inserted into the BERSERK_TOKEN environmental variable in (`ENV`). More instructions about token are found in [Lichess website](https://lichess.org/account/oauth/token) 
 
 #### 3. Conda Environment (Recommended)
   > For reproducibility, create and activate the provided environment (`ENV`) using conda:  
@@ -48,4 +49,4 @@ Load Data: The notebook automatically downloads a games.csv file from a Google D
 
 Execute Cells: Run the cells sequentially to proceed through the data cleaning, feature engineering, and exploratory data analysis sections.
 
-Link to [Google Colab Notebook] (https://colab.research.google.com/github/Xelaro2304/MSB1015-Scientific-Programming/blob/main/Chess.ipynb)
+Link to [Google Colab Notebook](https://colab.research.google.com/github/Xelaro2304/MSB1015-Scientific-Programming/blob/main/Chess.ipynb)
