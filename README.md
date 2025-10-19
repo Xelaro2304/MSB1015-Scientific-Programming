@@ -5,6 +5,8 @@ Maastricht University's MSB1015 Scientific Programming course final project as p
 
 This repository contains the Jupyter Notebook `Chess.ipynb`, which is used for **Exploratory Data Analysis (EDA)** and **predictive modeling** on a dataset of chess games. The project utilizes various data science libraries and integrates with the **Stockfish chess engine** for advanced game analysis and feature creation.
 
+As an alternative, a cell to download a processed file with the evaluation and prior steps is provided as commented code
+
 ---
 
 ### Preparation and Setup
@@ -28,22 +30,11 @@ It is **necessary to install an adequate Stockfish version** on your operating s
 
 Please refer to the official [Stockfish download page] (https://stockfishchess.org/download/) for the appropriate installation and path setup instructions.
 
-##### Python Packages
-
-The following Python libraries are required and can be installed using pip. The notebook's first code cell includes these commands:
-
-```bash
-pip install -U ydata-profiling
-pip install berserk
-pip install optuna
-pip install python-chess
-```
-
 #### 3. Conda Environment (Recommended)
   > For reproducibility, create and activate the provided environment (`ENV`) using conda:  
   ```bash
-  conda env create -f ENV.yml
-  conda activate ENV
+  conda env create ENVIRONMENT_NAME -f ENV.yml
+  conda activate ENVIRONMENT_NAME
   ```
 
 ### Running the Notebook
