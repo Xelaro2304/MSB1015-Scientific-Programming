@@ -3,7 +3,7 @@ Maastricht University's MSB1015 Scientific Programming course final project as p
 
 ## Chess Data Analysis and Modeling
 
-This repository contains the Jupyter Notebook `Chess.ipynb`, which is used for **Exploratory Data Analysis (EDA)** and **predictive modeling** on a dataset of chess games. The project utilizes various data science libraries and integrates with the **Stockfish chess engine** for advanced game analysis and feature creation.
+This repository contains the Jupyter Notebook `Chess.ipynb`, which is used for **Exploratory Data Analysis (EDA)** and **predictive modeling** on a dataset of chess games. Dataset is a modified version of [Kaggle chess dataset](https://www.kaggle.com/datasets/datasnaek/chess/data) which can be found [here](https://docs.google.com/uc?export=download&id=1lBXYMdZtKdMm4AtGWjJFjmBygUtn8w5y&confirm=t), although it is also downloaded within the code into the current directory. The project utilizes various data science libraries and integrates with the **Stockfish chess engine** for advanced game analysis and feature creation.
 
 As an alternative, a cell to download a processed file with the evaluation and prior steps is provided as commented code
 
