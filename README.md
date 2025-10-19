@@ -47,3 +47,5 @@ Install Dependencies: Ensure Stockfish is installed and run the package installa
 Load Data: The notebook automatically downloads a games.csv file from a Google Drive URL to perform the analysis.
 
 Execute Cells: Run the cells sequentially to proceed through the data cleaning, feature engineering, and exploratory data analysis sections.
+
+Link to [Google Colab Notebook] (https://colab.research.google.com/github/Xelaro2304/MSB1015-Scientific-Programming/blob/main/Chess.ipynb)
